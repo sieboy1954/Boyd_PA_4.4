@@ -24,13 +24,13 @@ return (
     <div> 
         <input type="text" value={inputValue} onChange={handleInputChange} />
 
-        <button onClick={handleSubmit}>Add To Do</button>
+        <button onClick={handleSubmit}>Add Item</button>
 
         <ul>
             {todo.map((todo, index) => (
                 <li key={index}>
             {todo}
-            <button onClick={() => handleDelete(index)}>Remove</button>
+            <button onClick={() => handleDelete(index)}>Delete</button>
             </li>
             ))}
             </ul>

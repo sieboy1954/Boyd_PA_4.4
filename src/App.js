@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-Header">
-      <p>To-Do List:</p>
+      <p className= "title"> My Shopping List:</p>
+      <img src="/shoppingList.png" alt="My Shopping List" className="img"/>
           <ToDo />
       </header>
     </div>

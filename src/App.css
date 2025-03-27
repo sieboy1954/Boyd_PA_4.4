@@ -34,9 +34,18 @@ ul {
 }
 
 body {
-  background-color: lightseagreen;
+  background-color: lightgreen;
 }
 
+.img {
+  width: 100px;
+  height: auto;
+}
+
+.title{
+  font-style: bold; 
+  font-size: 28px; 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
